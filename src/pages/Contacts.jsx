@@ -1,8 +1,15 @@
+import Navbar from "../components/Navbar";
+
 export default function Contacts() {
   return (
     <>
       <div>
-        <h1>Chi siamo</h1>
+        <header>
+          <Navbar />
+        </header>
+        <div className="container">
+          <h1>Contacts</h1>
+        </div>
       </div>
     </>
   );
